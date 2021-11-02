@@ -7,9 +7,9 @@
  	try{
  		echo "1";
       $db=new PDO("mysql:host=".HOST. ";dbname=". DB_NAME,USER,PASS);
-      echo $db;
+      echo "2";
       $db-> setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-       echo $db;
+       echo "3";
  	}catch(PDOExeption $e){ echo $e;}
 
 
