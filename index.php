@@ -30,7 +30,7 @@
 	   
 	   ?>
 	
-	<?php include 'menunavigation.php';
+	<?php #include 'menunavigation.php';
 		 include 'includes/database.php';
 	   	 global $db;
  		
