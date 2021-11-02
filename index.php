@@ -30,6 +30,14 @@
 	   
 	   ?>
 	
+	 <h1>Login:</h1>
+	 <form method="post">
+     <input type="text" name="lname" id="lname" placeholder="votre nom" required><br/>
+     <input type="password" name="lpassword" id="lpassword" placeholder="votre password" required><br/>
+     <input type="email" name="lemail" id="lemail" placeholder="votre email" required><br/>
+     <input type="submit" name="formeLogin" id="submit" value="login">
+	</form>
+
 	<?php #include 'menunavigation.php';
 		 include 'includes/database.php';
 	   	 global $db;
