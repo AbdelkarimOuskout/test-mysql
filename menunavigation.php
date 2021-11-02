@@ -2,13 +2,13 @@
 		<nav class="menu_nav">
              <ul>
              	<li class="btn">
-             		<a href="#">Accueil</a>
+             		<a href="index.php">Accueil</a>
              	</li>
              	<li class="btn">
-             		<a href="news.html">Actualité</a>
+             		<a href="index.php">Actualité</a>
              	</li>
              	<li class="btn">
-             		<a href="contact.html">Contact</a>
+             		<a href="index.php">Contact</a>
              	</li>
 
              </ul>
