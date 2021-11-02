@@ -39,7 +39,7 @@
 	</form>
 
 	<?php #include 'menunavigation.php';
-		 require 'includes/database.php';
+		 require 'database.php';
 	   	 global $db;
  		
 	 ?>
@@ -53,7 +53,7 @@
      <input type="password" name="lpassword" id="lpassword" placeholder="votre password" required><br/>
      <input type="email" name="lemail" id="lemail" placeholder="votre email" required><br/>
      <input type="submit" name="formeLogin" id="submit" value="login">
-	</form>
+	 </form>
 
  	<?php include 'includes/login.php';?>
 
