@@ -39,7 +39,7 @@
 	</form>
 
 	<?php #include 'menunavigation.php';
-		 include 'includes/database.php';
+		 require 'includes/database.php';
 	   	 global $db;
  		
 	 ?>
